@@ -15,10 +15,10 @@ export class PostEntity {
   authorId: string;
 
   @Column({ name: 'is_published' })
-  isPublisher: boolean;
+  isPublished: boolean;
 
   @Column({ name: 'created_at' })
-  createAt: string;
+  createdAt: string;
 
   @Column({ name: 'updated_at' })
   updatedAt: string;
