@@ -2,7 +2,7 @@ import { Column, Entity, PrimaryColumn } from 'typeorm';
 
 @Entity('posts')
 export class PostEntity {
-  @PrimaryColumn()
+  @PrimaryColumn('uuid')
   id: string;
 
   @Column()
