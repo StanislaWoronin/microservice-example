@@ -16,6 +16,26 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@libs/providers": [
+        "libs/providers/src"
+      ],
+      "@libs/providers/*": [
+        "libs/providers/src/*"
+      ],
+      "@libs/entities": [
+        "libs/entities/src"
+      ],
+      "@libs/entities/*": [
+        "libs/entities/src/*"
+      ],
+      "@libs/post": [
+        "libs/post/src"
+      ],
+      "@libs/post/*": [
+        "libs/post/src/*"
+      ]
+    }
   }
 }

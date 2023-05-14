@@ -1,0 +1,25 @@
+import { Column, Entity, PrimaryColumn } from 'typeorm';
+
+@Entity('posts')
+export class PostEntity {
+  @PrimaryColumn()
+  id: string;
+
+  @Column()
+  title: string;
+
+  @Column()
+  message: string;
+
+  @Column({ name: 'author_id' })
+  authorId: string;
+
+  @Column({ name: 'is_published' })
+  isPublisher: boolean;
+
+  @Column({ name: 'created_at' })
+  createAt: string;
+
+  @Column({ name: 'updated_at' })
+  updatedAt: string;
+}
