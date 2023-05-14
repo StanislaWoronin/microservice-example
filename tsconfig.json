@@ -41,6 +41,12 @@
       ],
       "@libs/errors/*": [
         "libs/errors/src/*"
+      ],
+      "@libs/shared": [
+        "libs/shared/src"
+      ],
+      "@libs/shared/*": [
+        "libs/shared/src/*"
       ]
     }
   }
